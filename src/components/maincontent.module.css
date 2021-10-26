@@ -1,0 +1,21 @@
+.heading1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  display: inline-block;
+  margin: auto;
+  background: #353535;
+  z-index: 0;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  max-width: 960px;
+}
+
+@media only screen and (max-width: 900px) {
+  .heading1::after {
+    width: calc(100% - 40px);
+  }
+}
