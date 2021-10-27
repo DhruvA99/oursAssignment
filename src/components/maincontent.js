@@ -53,6 +53,31 @@ function MainContent() {
           </span>
         </div>
       </div>
+      <div className="w-full rounded-2xl bg-gray-800 text-white flex flex-col items-center justify-center py-12">
+        <span className="font-semibold text-2xl w-3/5 py-2">
+          “Yoga is the journey, of the self, through the self, to the self”
+        </span>
+        <span className="font-normal text-sm">Bhagavad Gītā, Verse 6.20</span>
+        <div className="w-5/6 border-t-2 border-white my-6"></div>
+
+        <span className="my-1 mx-2 w-11/12 text-left">
+          Yoga is the ancient Indian science of healthy living - harmonizing the
+          relationship between mind, body and environment. Much more than a
+          physical exercise, it is a disciplined and holistic lifestyle that
+          includes of a variety of practices.
+        </span>
+        <span className="my-1 mx-2 w-11/12 text-left">
+          Traditional Yoga is a combination of Ethical Rules (Yamas), Personal
+          Observances (Niyamas), Posture (Āsana), Breathing (Prāṇāyāma),
+          Withdrawal (Pratyāhāra), Concentration (Dhāraṇā) and Meditation
+          (Dhyāna).
+        </span>
+        <span className="my-1 mx-2 w-11/12 text-left">
+          Our Sādhanā (Daily Practice) is designed for you to incorporate this
+          Yogic lifestyle through short lessons, which can be viewed at your
+          convenience.
+        </span>
+      </div>
     </div>
   );
 }

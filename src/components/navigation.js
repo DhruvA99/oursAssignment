@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation() {
   return (
-    <div className="w-full px-3 py-3 flex flex-row justify-between sticky top-0 left-0 bg-white">
+    <div className="w-full z-40 px-3 py-3 flex flex-row justify-between sticky top-0 left-0 bg-white">
       <div className="flex justify-between items-center">
         <span className="font-semibold text-xl ">OURS</span>
       </div>

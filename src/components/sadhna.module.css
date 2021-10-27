@@ -1,0 +1,27 @@
+.carddiv::before {
+  content: "";
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  /* left: 85px; */
+  top: 85px;
+  width: 2px;
+  top: 50%;
+  left: -31px;
+  background-color: #d7d7d7;
+  height: calc(100% + 48px);
+}
+.carddiv::after {
+  content: "";
+  position: absolute;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* left: 0; */
+  top: 85px;
+  /* top: calc(50% - 6px); */
+  left: -36px;
+  background-color: #d7d7d7;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
